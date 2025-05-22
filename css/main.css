@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DK+Loopet:wght@100..400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.ajustaTOPO {
+  margin-top: 50px;
+}
+.ajustaBOTTOM {
+  margin-bottom: 50px;
+}
+main {
+  margin-bottom: 50px; 
+  flex: 1;
+  padding-bottom: 50px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+  background: linear-gradient(to right, #403a3a, #0a314c);
+  border: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+
+li a:hover {
+  background: linear-gradient(to right, #f4f4f4, #0a314c);
+}
+li.nome {
+    float: left;
+}
+body {
+    background-color: lightblue;
+    background: linear-gradient(to right, #6f6f6f, #0a314c);
+}
+#fonte {
+    font-family: "Playwrite DK Loopet", cursive;
+    font-size: 27px;
+}
+li:first-child {
+  position: absolute; 
+  left: 20px; 
+}
+img {
+  display: block;
+  margin: 50px auto 0;
+  width: 200px;
+  height: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.centro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.active {
+    background-color: darkgray;
+    color: white;
+}
+.bordaImagem {
+    border-radius: 50%;
+}
+.alinha {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.sobre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+}
+input[type="text"] {
+  width: 300px;  
+  padding: 5px;   
+  border: 1px solid rgb(0, 191, 255); 
+  border-radius: 4px;  
+}
+
+textarea {
+  width: 300px;
+  height: 200px;
+  padding: 10px;
+  border: 1px solid rgb(0, 191, 255);
+  border-radius: 4px;
+}
+footer {
+      background: linear-gradient(to right, #403a3a, #0a313c);
+      padding: 10px;
+      text-align: center;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
