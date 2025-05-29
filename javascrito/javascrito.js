@@ -3,6 +3,7 @@ function lightTheme() {
 }
 
 // canva pintar
+// Trabalhos realizados no curso da Alura
 var telaPintar = document.getElementById('canvasPintor');
 var pincelPintar = telaPintar.getContext('2d');
 
@@ -32,6 +33,7 @@ telaPintar.onmouseup = function() {
 };
 
 // canva do circulo
+// Trabalhos realizados no curso da Alura
 var telaAlvo = document.getElementById('canvasAlvo');
 var pincelAlvo = telaAlvo.getContext('2d');
 
